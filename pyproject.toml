@@ -1,0 +1,8 @@
+[tool.ruff]
+line-length = 88
+target-version = "py311"  # ou a versão do Python do seu projeto
+extend-exclude = ["venv", "__pycache__"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = ["E501"]
